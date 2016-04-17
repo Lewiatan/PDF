@@ -1,0 +1,20 @@
+{
+    "name": "lewiatan/pdf",
+    "description": "Laravel package for generating PDF files with mPDF library.",
+    "authors": [
+        {
+            "name": "Maciej Niepiekło",
+            "email": "lewiatan.hpc@mgial.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "mpdf/mpdf": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lewiatan\\Pdf": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
