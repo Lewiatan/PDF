@@ -18,7 +18,7 @@ class PdfServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->bindShared('pdf', function() {
+		$this->app->singleton('pdf', function() {
 			return $this->app->make('Lewiatan\Pdf\PdfGenerator');
 		});
 	}
