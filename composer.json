@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "mpdf/mpdf": "v6.0.0"
+        "mpdf/mpdf": "v7.*"
     },
     "autoload": {
         "psr-0": {
