@@ -1,9 +1,10 @@
 <?php namespace Lewiatan\Pdf;
 
 use Illuminate\Support\Facades\Response;
+use Mpdf\Mpdf;
 
 class PdfGenerator {
-    public function __construct(\mPDF $mPDF){
+    public function __construct(Mpdf $mPDF){
         $this->mpdf = $mPDF;
     }
 
